@@ -1,0 +1,9 @@
+[submodule "mrifk-git"]
+	path = mrifk-git
+	url = ssh://aur@aur.archlinux.org/mrifk-git.git
+[submodule "aseprite-git"]
+	path = aseprite-git
+	url = ssh://aur@aur.archlinux.org/aseprite-git.git
+[submodule "mcomix-gtk3-git"]
+	path = mcomix-gtk3-git
+	url = ssh://aur@aur.archlinux.org/mcomix-gtk3-git.git
