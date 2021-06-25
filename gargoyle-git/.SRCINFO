@@ -1,0 +1,18 @@
+pkgbase = gargoyle-git
+	pkgdesc = Interactive Fiction multi-interpreter that supports all major IF formats (development version)
+	pkgver = 2019.1.r201.g11c2f68
+	pkgrel = 1
+	url = https://github.com/garglk/garglk
+	arch = x86_64
+	arch = i686
+	license = custom
+	makedepends = git
+	makedepends = cmake
+	depends = qt5-base
+	depends = hicolor-icon-theme
+	depends = sdl2_mixer
+	conflicts = gargoyle
+	source = git+https://github.com/garglk/garglk.git
+	sha256sums = SKIP
+
+pkgname = gargoyle-git
