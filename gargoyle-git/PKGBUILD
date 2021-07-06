@@ -2,7 +2,7 @@
 
 pkgname=gargoyle-git
 _pkgname=garglk
-pkgver=2019.1.r201.g11c2f68
+pkgver=2019.1.r221.gf2ea2d3
 pkgrel=1
 pkgdesc='Interactive Fiction multi-interpreter that supports all major IF formats (development version)'
 arch=('x86_64' 'i686')
@@ -41,4 +41,18 @@ package() {
     install -Dm644 "interactive-fiction.xml" "${pkgdir}/usr/share/mime/packages/gargoyle.xml"
     install -Dm644 "gargoyle.desktop" "${pkgdir}/usr/share/applications/gargoyle.desktop"
     install -Dm644 "gargoyle-house.png" "${pkgdir}/usr/share/icons/hicolor/32x32/apps/gargoyle-house.png"
+
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-adrift.png"
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-blorb.png"
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-glulx.png"
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-tads.png"
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-t3vm-image.png"
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-zmachine.png"
+
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-advsys.png"
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-agt.png"
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-alan.png"
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-hugo-image.png"
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-level9.png"
+    install -Dm644 "gargoyle-docu2.png" "${pkgdir}/usr/share/icons/hicolor/32x32/mimetypes/application-x-magscroll.png"
 }
