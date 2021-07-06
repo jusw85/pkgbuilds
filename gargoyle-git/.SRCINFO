@@ -1,6 +1,6 @@
 pkgbase = gargoyle-git
 	pkgdesc = Interactive Fiction multi-interpreter that supports all major IF formats (development version)
-	pkgver = 2019.1.r201.g11c2f68
+	pkgver = 2019.1.r221.gf2ea2d3
 	pkgrel = 1
 	url = https://github.com/garglk/garglk
 	arch = x86_64
